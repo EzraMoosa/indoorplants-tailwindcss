@@ -9,6 +9,13 @@ module.exports = {
       xl: "1180px"
     },
     extend: {},
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "12px",
+        md: "32px"
+      }
+    }
   },
   plugins: [],
 }

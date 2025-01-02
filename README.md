@@ -42,16 +42,9 @@ Welcome to the **Plant Website** repository! This is a responsive and visually a
 
 ## 🖥️ Live Demo
 
-You can check out the live version of this website here: [Link to your live demo](#)
+You can check out the live version of this website here: [https://indoor-plants.netlify.app/](#)
 
 ---
 
-## 📂 Project Structure
-
-```plaintext
-📦 Plant Website
-├── index.html       # Main HTML file
-├── styles.css       # Additional custom styles (if any)
-├── script.js        # JavaScript for interactivity
-├── tailwind.config.js # Tailwind CSS configuration file
-├── README.md        # Project documentation (this file)
+## ©️ Credits
+Reference and guide: https://www.youtube.com/watch?v=zKguO4oaAGs&ab_channel=LightCode

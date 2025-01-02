@@ -24,7 +24,7 @@ Welcome to the **Indoor Plants Website** repository! This is a responsive and vi
 
 ### 5. **Newsletter Subscription Section**
    - A simple form where users can subscribe to a newsletter.
-   - Integration-ready for email services like Mailchimp.
+   - Integration-ready for email services.
 
 ### 6. **Footer Section**
    - Links to social media and other important pages.

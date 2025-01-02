@@ -8,6 +8,10 @@ body {
     @apply bg-green-950 text-white font-Jost tracking-wider; 
 }
 
+.section {
+    @apply py-20;
+}
+
 .nav-link {
     @apply text-lg font-bold duration-300;
 }

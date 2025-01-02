@@ -53,8 +53,8 @@ const swiper = new Swiper('.swiper', {
 
     // If we need pagination
     pagination: {
-      el: '.swiper-pagination',
-      clickable: true
+        el: '.swiper-pagination',
+        clickable: true
     },
 
     grabCursor: true,
@@ -69,31 +69,41 @@ const swiper = new Swiper('.swiper', {
             slidesPerView: 3
         }
     }
-  });
+});
 
 
-  const activeLink = () => {
-    const sections = document.querySelectorAll("section")
-    const navLinks = document.querySelectorAll(".nav-link")
+const activeLink = () => {
+const sections = document.querySelectorAll("section")
+const navLinks = document.querySelectorAll(".nav-link")
 
-    let current = "home"
+let current = "home"
 
-    sections.forEach(section => {
-        const sectionTop = section.offsetTop;
+sections.forEach(section => {
+    const sectionTop = section.offsetTop;
 
-        if(this.scrollY >= sectionTop -60) {
-            current = section.getAttribute("id")
-        }
-    })
+    if(this.scrollY >= sectionTop -60) {
+        current = section.getAttribute("id")
+    }
+})
 
-    navLinks.forEach(item => {
-        item.classList.remove("active")
+navLinks.forEach(item => {
+    item.classList.remove("active")
 
-        if(item.href.includes(current)) {
-            item.classList.add("active")
-        }
-    })
-  }
+    if(item.href.includes(current)) {
+        item.classList.add("active")
+    }
+})
+}
+
+window.addEventListener("scroll", activeLink)
 
 
-  window.addEventListener("scroll", activeLink)
+const sr = ScrollReveal({
+    origin: "top",
+    distance: "60px",
+    duration: 2500,
+    delay: 300,
+    reset: true
+})
+
+sr.reveal('.home__data')

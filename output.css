@@ -705,6 +705,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-yellow-500{
+  --tw-text-opacity: 1;
+  color: rgb(234 179 8 / var(--tw-text-opacity, 1));
+}
+
 .opacity-90{
   opacity: 0.9;
 }

@@ -590,6 +590,10 @@ video {
   }
 }
 
+.pointer-events-none{
+  pointer-events: none;
+}
+
 .fixed{
   position: fixed;
 }
@@ -701,6 +705,10 @@ video {
 
 .mb-5{
   margin-bottom: 1.25rem;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
 }
 
 .inline-block{
@@ -1143,6 +1151,14 @@ video {
 
 .opacity-90{
   opacity: 0.9;
+}
+
+.opacity-80{
+  opacity: 0.8;
+}
+
+.opacity-20{
+  opacity: 0.2;
 }
 
 .outline-none{

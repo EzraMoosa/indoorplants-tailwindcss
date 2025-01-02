@@ -598,12 +598,12 @@ video {
   position: absolute;
 }
 
-.top-0{
-  top: 0px;
-}
-
 .left-0{
   left: 0px;
+}
+
+.top-0{
+  top: 0px;
 }
 
 .z-50{
@@ -616,10 +616,6 @@ video {
 
 .h-16{
   height: 4rem;
-}
-
-.h-20{
-  height: 5rem;
 }
 
 .min-h-\[80vh\]{
@@ -684,6 +680,18 @@ body{
   letter-spacing: 0.05em;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.nav-link{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  transition-duration: 300ms;
+}
+
+.nav-link:hover{
+  --tw-text-opacity: 1;
+  color: rgb(234 179 8 / var(--tw-text-opacity, 1));
 }
 
 @media (min-width: 340px){

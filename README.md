@@ -20,7 +20,7 @@ Welcome to the **Indoor Plants Website** repository! This is a responsive and vi
 
 ### 4. **Customer Reviews Section**
    - Highlight positive feedback from customers.
-   - Star ratings and testimonials styled beautifully.
+   - Swiper animation and testimonials styled beautifully.
 
 ### 5. **Newsletter Subscription Section**
    - A simple form where users can subscribe to a newsletter.

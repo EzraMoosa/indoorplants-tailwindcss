@@ -8,7 +8,7 @@ Welcome to the **Indoor Plants Website** repository! This is a responsive and vi
 
 ### 1. **Home Section**
    - A welcoming section with a hero image or banner.
-   - Call-to-action buttons and a short description about the site.
+   - Few buttons and a short description about the site.
 
 ### 2. **About Us Section**
    - Learn about the story and mission of the website or business.
@@ -16,7 +16,7 @@ Welcome to the **Indoor Plants Website** repository! This is a responsive and vi
 
 ### 3. **Popular Section**
    - Display of popular or featured plants.
-   - Cards with plant images, names, and short descriptions.
+   - Cards with plant images, names, rating and price.
 
 ### 4. **Customer Reviews Section**
    - Highlight positive feedback from customers.

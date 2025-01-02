@@ -113,4 +113,5 @@ sr.reveal('.service__card, .popular__card', {interval: 100})
 
 sr.reveal('.about__leaf', {delay: 1000, origin: "right"})
 sr.reveal('.about__item__1-content, .about__item__2-img', {origin: "right"})
+sr.reveal('.about__item__1-img, .about__item__2-content', {origin: "left"})
 sr.reveal('.review__leaf', {delay: 1000, origin: "left"})

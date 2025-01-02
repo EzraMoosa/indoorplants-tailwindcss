@@ -695,6 +695,18 @@ video {
   margin-bottom: 5rem;
 }
 
+.mt-16{
+  margin-top: 4rem;
+}
+
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
 .flex{
   display: flex;
 }
@@ -749,6 +761,10 @@ video {
 
 .max-w-2xl{
   max-width: 42rem;
+}
+
+.max-w-36{
+  max-width: 9rem;
 }
 
 .grow{
@@ -881,6 +897,12 @@ video {
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
+.space-x-2 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .overflow-hidden{
   overflow: hidden;
 }
@@ -901,9 +923,18 @@ video {
   border-width: 1px;
 }
 
+.border-b{
+  border-bottom-width: 1px;
+}
+
 .border-green-900{
   --tw-border-opacity: 1;
   border-color: rgb(20 83 45 / var(--tw-border-opacity, 1));
+}
+
+.border-green-500{
+  --tw-border-opacity: 1;
+  border-color: rgb(34 197 94 / var(--tw-border-opacity, 1));
 }
 
 .bg-green-700{
@@ -938,6 +969,10 @@ video {
 .bg-yellow-100{
   --tw-bg-opacity: 1;
   background-color: rgb(254 249 195 / var(--tw-bg-opacity, 1));
+}
+
+.to-green-700{
+  --tw-gradient-to: #15803d var(--tw-gradient-to-position);
 }
 
 .p-10{
@@ -1049,6 +1084,11 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-7xl{
+  font-size: 4.5rem;
+  line-height: 1;
 }
 
 .font-bold{
@@ -1268,6 +1308,11 @@ h3{
   background-color: rgb(34 197 94 / var(--tw-bg-opacity, 1));
 }
 
+.first-letter\:mx-auto::first-letter{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .hover\:-translate-y-1:hover{
   --tw-translate-y: -0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1305,6 +1350,11 @@ h3{
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
+
+  .sm\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 @media (min-width: 540px){
@@ -1334,6 +1384,10 @@ h3{
 
   .md\:pt-28{
     padding-top: 7rem;
+  }
+
+  .md\:text-start{
+    text-align: start;
   }
 
   .md\:text-4xl{

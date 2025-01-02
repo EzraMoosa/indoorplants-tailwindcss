@@ -658,6 +658,11 @@ video {
   z-index: 50;
 }
 
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mb-10{
   margin-bottom: 2.5rem;
 }
@@ -1096,6 +1101,10 @@ h3{
     height: 5rem;
   }
 
+  .sm\:w-2\/3{
+    width: 66.666667%;
+  }
+
   .sm\:flex-row{
     flex-direction: row;
   }
@@ -1156,6 +1165,10 @@ h3{
     width: auto;
   }
 
+  .lg\:w-full{
+    width: 100%;
+  }
+
   .lg\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1180,6 +1193,10 @@ h3{
 
   .xl\:top-5{
     top: 1.25rem;
+  }
+
+  .xl\:w-2\/3{
+    width: 66.666667%;
   }
 
   .xl\:grid-cols-4{

@@ -674,6 +674,10 @@ video {
   top: 50%;
 }
 
+.-bottom-1\/2{
+  bottom: -50%;
+}
+
 .-z-10{
   z-index: -10;
 }

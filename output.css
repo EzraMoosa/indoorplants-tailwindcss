@@ -658,6 +658,10 @@ video {
   top: -2rem;
 }
 
+.-left-1\/2{
+  left: -50%;
+}
+
 .-z-10{
   z-index: -10;
 }

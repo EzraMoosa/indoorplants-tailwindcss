@@ -9,13 +9,14 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header id="navbar" class="bg-green-950 fixed w-full top-0 left-0 z-50">
         <nav class="container flex items-center justify-between sm:h-20 h-16">
             <div class="font-Lobster sm:text-2x1">IndoorPlants.</div>
 
             <div id="nav-menu" class="absolute top-0 left-[-100%] min-h-[80vh] w-full bg-green-950/80 backdrop-blur-sm flex items-center justify-center duration-300 overflow-hidden lg:static lg:min-h-fit lg:bg-transparent lg:w-auto">
 
-
+                <!-- Navlinks -->
                 <ul class="flex flex-col items-center gap-8 lg:flex-row">
                     <li><a href="#home" class="nav-link">Home</a></li>
                     <li><a href="#about" class="nav-link">About</a></li>
@@ -32,17 +33,22 @@
                 </div>    
             </div>
              
+            <!-- Menu Icon -->
             <div class="text-xl sm:text-3xl cursor-pointer z-50 lg:hidden">
                 <i class="ri-menu-4-line" id="hamburger"></i>
             </div>
         </nav>
     </header>
 
+
     <main>
+
+        <!-- Home Section -->
         <section id="home">
-            <div>
-                <div>
-                    <div>
+            <div class="container">
+                <div class="flex flex-col items-center gap-5">
+                    <!-- Content -->
+                    <div class="w-full space-y-5">
                         <h1>
                             <span class="text-yellow-500">Plants</span> make a <br>positive <span class="text-yellow-500">impact</span> on <br> your enviroment
                         </h1>
@@ -73,9 +79,29 @@
                             <i class="ri-linkedin-fill"></i>
                         </div>
                     </div>
+
+                    <!-- Image -->
+                     <div>
+                        <img src="./assets/img/home.png" alt="home-image">
+
+                        <div>
+                            <i class="ri-leaf-line"></i>
+                        </div>
+
+                        <div>
+                            <i class="ri-flower-line"></i>
+                        </div>
+
+                        <div>
+                            <i class="ri-plant-line"></i>
+                        </div>
+                     </div>
                 </div>
             </div>
         </section>
+
+
+
     </main>
 
     <script src="main.js"></script>

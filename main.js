@@ -107,4 +107,4 @@ const sr = ScrollReveal({
 })
 
 sr.reveal('.home__data')
-sr.reveal('.home__image')
+sr.reveal('.home__image', {delay: 500, scale: 0.5})

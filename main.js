@@ -106,7 +106,7 @@ const sr = ScrollReveal({
     reset: true
 })
 
-sr.reveal('.home__data')
+sr.reveal('.home__data, .about__top')
 sr.reveal('.home__image', {delay: 500, scale: 0.5})
 
 sr.reveal('.service__card', {interval: 100})

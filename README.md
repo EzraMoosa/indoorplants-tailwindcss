@@ -1,4 +1,4 @@
-# 🌱 Plant Website
+# 🌱 Indoor Plants Website
 
 Welcome to the **Plant Website** repository! This is a responsive and visually appealing website for plant lovers. Built using **HTML**, **Tailwind CSS**, and **JavaScript**, the site features a clean and modern design to showcase plants and engage users.
 

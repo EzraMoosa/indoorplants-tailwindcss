@@ -47,4 +47,5 @@ You can check out the live version of this website here: https://indoor-plants.n
 ---
 
 ## ©️ Credits
+LightCode (Youtube)
 Reference and guide: https://www.youtube.com/watch?v=zKguO4oaAGs&ab_channel=LightCode

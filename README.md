@@ -43,10 +43,3 @@ Welcome to the **Indoor Plants Website** repository! This is a responsive and vi
 ## 🖥️ Live Demo
 
 You can check out the live version of this website here: https://indoor-plants.netlify.app/
-
----
-
-## ©️ Credits
-LightCode (Youtube)
-
-Reference and guide: https://www.youtube.com/watch?v=zKguO4oaAGs&ab_channel=LightCode
